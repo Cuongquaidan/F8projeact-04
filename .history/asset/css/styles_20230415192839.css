@@ -406,37 +406,6 @@ a {
     grid-template-columns: repeat(2, 1fr);
 }
 .about__media-2 {
-    position: relative;
-    width: 446px;
     background-color: #99c3e8;
     border: 2px solid #fff;
-    border-radius: 16px;
-}
-/* Loi o doan nay ạ */
-.media-box__img {
-    width: 100%;
-    height: auto;
-    position: relative;
-}
-.about__info-2__img {
-    position: absolute;
-    max-width: 100%;
-    bottom: 0;
-    left: 0;
-}
-/* Cmt nó lại thì hết lỗi a. */
-.about__media-wrap1 {
-    position: absolute;
-    top: 0;
-    right: 0;
-}
-.about__media-wrap2 {
-    position: absolute;
-    bottom: 150px;
-    right: 0;
-}
-.about__media-wrap3 {
-    position: absolute;
-    bottom: -50px;
-    right: 0;
 }

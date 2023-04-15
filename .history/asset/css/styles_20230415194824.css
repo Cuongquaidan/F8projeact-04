@@ -412,8 +412,7 @@ a {
     border: 2px solid #fff;
     border-radius: 16px;
 }
-/* Loi o doan nay ạ */
-.media-box__img {
+/* .media-box__img {
     width: 100%;
     height: auto;
     position: relative;
@@ -423,8 +422,7 @@ a {
     max-width: 100%;
     bottom: 0;
     left: 0;
-}
-/* Cmt nó lại thì hết lỗi a. */
+} */
 .about__media-wrap1 {
     position: absolute;
     top: 0;

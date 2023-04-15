@@ -13,7 +13,6 @@ html {
 body {
     font-size: 1.6rem;
     font-family: "Poppins", sans-serif;
-    background-color: var(--primary-background-color);
 }
 /* comman */
 input,
@@ -285,9 +284,7 @@ a {
     font-size: 1rem;
     padding-top: 70px;
 }
-.about__container {
-    display: block;
-}
+
 .about-info {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -347,7 +344,7 @@ a {
 }
 .about__media {
     margin-left: 200px;
-    margin-top: 105px;
+    margin-top: 120px;
 }
 .about__media-info {
     width: 136px;
@@ -400,43 +397,4 @@ a {
     position: absolute;
     bottom: 0;
     left: 0;
-}
-.about__info-2 {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-}
-.about__media-2 {
-    position: relative;
-    width: 446px;
-    background-color: #99c3e8;
-    border: 2px solid #fff;
-    border-radius: 16px;
-}
-/* Loi o doan nay ạ */
-.media-box__img {
-    width: 100%;
-    height: auto;
-    position: relative;
-}
-.about__info-2__img {
-    position: absolute;
-    max-width: 100%;
-    bottom: 0;
-    left: 0;
-}
-/* Cmt nó lại thì hết lỗi a. */
-.about__media-wrap1 {
-    position: absolute;
-    top: 0;
-    right: 0;
-}
-.about__media-wrap2 {
-    position: absolute;
-    bottom: 150px;
-    right: 0;
-}
-.about__media-wrap3 {
-    position: absolute;
-    bottom: -50px;
-    right: 0;
 }
