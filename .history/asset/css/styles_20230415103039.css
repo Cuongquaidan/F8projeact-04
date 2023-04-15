@@ -268,13 +268,4 @@ a {
 }
 .booking-chevron .bx-chevron-right {
     text-align: center;
-    line-height: 20px;
-}
-.booking-call {
-    font-family: "Sora", sans-serif;
-    margin-left: 24px;
-    text-decoration: underline;
-    color: var(--primary-color);
-    font-weight: 500;
-    font-size: 16px;
 }

@@ -244,8 +244,7 @@ a {
 }
 .hero__contents-booking {
     display: flex;
-    justify-content: start;
-    align-items: center;
+    align-items: start;
     margin-top: 38px;
 }
 .booking__btn {
@@ -256,25 +255,9 @@ a {
     color: #fff;
     background-color: #ff5b2e;
 }
-.booking-chevron {
-    display: inline-block;
+.book-chevron {
     width: 20px;
     height: 20px;
     border-radius: 999px;
-    background-color: #fff;
     color: #ff5b2e;
-    line-height: 20px;
-    margin-left: 10px;
-}
-.booking-chevron .bx-chevron-right {
-    text-align: center;
-    line-height: 20px;
-}
-.booking-call {
-    font-family: "Sora", sans-serif;
-    margin-left: 24px;
-    text-decoration: underline;
-    color: var(--primary-color);
-    font-weight: 500;
-    font-size: 16px;
 }
