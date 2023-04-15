@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+
+:root {
+    --primary-background-color: #e5e5e5;
+    --primary-font-tittle: "Sora", sans-serif;
+    --primary-color: #000958;
+}
+body {
+    font-size: 1.6rem;
+    font-family: "Poppins", sans-serif;
+}
+/* comman */
+input,
+textarea,
+select,
+button {
+    font-size: inherit;
+    font-family: inherit;
+}
+a {
+    text-decoration: none;
+    color: #5e6085;
+}
+.contain {
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    text-align: center;
+}
+/* header */
+#header {
+    background-color: var(--primary-background-color);
+    padding-top: 26px;
+    height: 100vh;
+    font-size: 1rem;
+}
+#header .contain {
+    justify-content: space-between;
+}
+.header__brand {
+    display: flex;
+    text-align: center;
+}
+.brand__img {
+    width: 35px;
+    height: auto;
+    object-fit: cover;
+}
+.brand__name {
+    color: var(--primary-color);
+    font-size: 2.4em;
+    font-weight: 500;
+}
+.header__nav {
+    display: flex;
+    width: 490px;
+    justify-content: space-between;
+    text-align: center;
+}
+.header__nav-item {
+    font-size: 1.4em;
+    color: #5e6085;
+}
+.header__action-btn {
+    font-size: 1.4em;
+    font-weight: 600;
+    padding: 14px 32px;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    background-color: var(--primary-background-color);
+    border-radius: 25px;
+}

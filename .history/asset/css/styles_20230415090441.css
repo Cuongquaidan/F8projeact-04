@@ -116,18 +116,9 @@ a {
 }
 .main-card__decor {
     position: absolute;
-    z-index: -1;
-    top: 17px;
-    right: -35px;
+    top: 100px;
+    bottom: 0;
 }
-.main-card__decor:nth-child(3) {
-    position: absolute;
-    top: auto;
-    right: auto;
-    bottom: 10px;
-    left: -58px;
-}
-
 .cards__sub-card {
     position: relative;
     margin-left: -20px;

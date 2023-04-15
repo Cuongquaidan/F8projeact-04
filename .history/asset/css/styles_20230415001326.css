@@ -85,7 +85,6 @@ a {
 /* hero */
 .hero {
     margin-top: 100px;
-    font-size: 1rem;
 }
 .hero__container {
     display: grid;
@@ -98,7 +97,6 @@ a {
     display: flex;
     align-items: end;
 }
-
 .cards__main-card {
     position: relative;
     width: 382px;
@@ -114,20 +112,6 @@ a {
     max-width: 100%;
     border-radius: 16px;
 }
-.main-card__decor {
-    position: absolute;
-    z-index: -1;
-    top: 17px;
-    right: -35px;
-}
-.main-card__decor:nth-child(3) {
-    position: absolute;
-    top: auto;
-    right: auto;
-    bottom: 10px;
-    left: -58px;
-}
-
 .cards__sub-card {
     position: relative;
     margin-left: -20px;
@@ -153,54 +137,17 @@ a {
     box-shadow: -17px 14px 68px -4px rgba(207, 174, 132, 0.25);
     border-radius: 10px;
 }
-
 .info-card__pet {
     display: flex;
 }
-.seperate {
-    width: 222px;
-    margin-left: 18px;
-    margin-right: 18px;
-    background-color: #eee;
-    height: 2px;
-    border-radius: 1px;
-}
-.pet__bg-img {
-    background-color: #fdbf3d;
-    margin: 18px;
-    width: 40px;
-    height: 40px;
-    border-radius: 5px;
-}
-.info-card__pet:nth-child(3) .pet__bg-img {
-    background-color: #bcdaf5;
-}
-.pet__img {
-    width: 100%;
-    border-radius: 5px;
-}
-.info__inner-card {
-    margin-top: 18px;
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-}
-.pet__title {
-    color: var(--primary-color);
-    font-family: "Sora", sans-serif;
-    font-size: 1.4em;
-    font-weight: 600;
-}
 .pet__skeleton-long {
-    margin-top: 7px;
-    margin-bottom: 7px;
-    background-color: #eee;
+    background-color: #ccc;
     border-radius: 3px;
     width: 118px;
     height: 4px;
 }
 .pet__skeleton-short {
-    background-color: #eee;
+    background-color: #ccc;
     border-radius: 3px;
     width: 39px;
     height: 4px;

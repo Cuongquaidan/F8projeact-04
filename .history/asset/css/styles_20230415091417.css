@@ -101,6 +101,7 @@ a {
 
 .cards__main-card {
     position: relative;
+    z-index: 0;
     width: 382px;
     height: 482px;
     background-color: #fe997b;
@@ -116,18 +117,15 @@ a {
 }
 .main-card__decor {
     position: absolute;
-    z-index: -1;
-    top: 17px;
-    right: -35px;
 }
 .main-card__decor:nth-child(3) {
     position: absolute;
-    top: auto;
-    right: auto;
     bottom: 10px;
     left: -58px;
 }
-
+.main-card__decor:nth-child(3) img {
+    width: 100%;
+}
 .cards__sub-card {
     position: relative;
     margin-left: -20px;

@@ -116,9 +116,8 @@ a {
 }
 .main-card__decor {
     position: absolute;
-    z-index: -1;
     top: 17px;
-    right: -35px;
+    right: -40px;
 }
 .main-card__decor:nth-child(3) {
     position: absolute;

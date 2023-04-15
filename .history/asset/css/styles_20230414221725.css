@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+:root {
+    --primary-color: #e5e5e5;
+    --primary-font-tittle: "Sora", sans-serif;
+    --primary-color-title: #000958;
+}
+body {
+    font-size: 1.6rem;
+    font-family: "Poppins", sans-serif;
+}
+input,
+textarea,
+select,
+button {
+    font-size: inherit;
+    font-family: inherit;
+}
