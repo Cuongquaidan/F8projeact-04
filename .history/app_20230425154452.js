@@ -151,8 +151,8 @@ window.addEventListener("load", function () {
         serviceImgHeight = serviceImgHeight + spaceY;
         let ratioX = serviceImgWidth / serviceImgWidth / 2;
         let ratioY = serviceImgHeight / serviceImgHeight / 2;
-        let x = (pX - serviceColTwo.offsetLeft) * ratioX;
-        let y = (pY - serviceColTwo.offsetHeight) * ratioY;
+        let x = (pX - serviceColTwo.offsetLeft - 300) * ratioX;
+        let y = pY * ratioY;
         serviceImg.style = `left: ${-x}px; top: ${-y}px; width: auto; height: auto; max-height: unset;max-width:unset; transform: none;`;
         serviceImgCover.addEventListener("mouseleave", function (e) {
             serviceImg.style = `left: 50%; top: 50%; width: auto; height: auto; max-height: 100%;max-width:100%; transform: translate(-50%,-50%);`;

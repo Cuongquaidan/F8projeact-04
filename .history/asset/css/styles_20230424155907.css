@@ -633,19 +633,21 @@ a {
     border-radius: 10px;
 }
 .col__img-wrap {
-    position: relative;
     height: 567px;
-    width: 420px;
+    width: inherit;
     overflow: hidden;
 }
 .col__img {
     max-width: 100%;
+    width: auto;
     position: relative;
     object-fit: contain;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+
     max-height: 100%;
+    height: 100%;
 }
 .col__img-cover {
     position: absolute;

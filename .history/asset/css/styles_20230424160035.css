@@ -640,12 +640,15 @@ a {
 }
 .col__img {
     max-width: 100%;
+    width: 100%;
     position: relative;
     object-fit: contain;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+
     max-height: 100%;
+    height: auto;
 }
 .col__img-cover {
     position: absolute;

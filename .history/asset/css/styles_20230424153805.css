@@ -633,9 +633,7 @@ a {
     border-radius: 10px;
 }
 .col__img-wrap {
-    position: relative;
     height: 567px;
-    width: 420px;
     overflow: hidden;
 }
 .col__img {
@@ -645,12 +643,11 @@ a {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    max-height: 100%;
 }
 .col__img-cover {
     position: absolute;
     cursor: zoom-in;
-    top: 0;
+    bottom: 0;
     left: 0;
     width: 420px;
     height: inherit;

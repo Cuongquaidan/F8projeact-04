@@ -126,36 +126,10 @@ window.addEventListener("load", function () {
         }
     });
     const serviceImg = document.querySelector(".col__img");
-    console.log(serviceImg);
     const serviceImgCover = document.querySelector(".col__img-cover");
-    console.log(serviceImgCover);
-    const serviceImgWrapper = document.querySelector(".col__img-wrap");
-
     serviceImgCover.addEventListener("mousemove", function (e) {
-        const serviceColTwo = document.querySelector(".services__col-2");
-        const pX = e.clientX;
-        const pY = e.clientY;
-        serviceImg.style = "max-width:unset; max-height: unset";
-        const serviceWrapperWidth = serviceImgWrapper.offsetWidth;
-        const serviceWrapperHeight = serviceImgWrapper.offsetHeight;
-
-        let serviceImgWidth = serviceImg.offsetWidth;
-
-        let serviceImgHeight = serviceImg.offsetHeight;
-        console.log(serviceImgWidth);
-        console.log(serviceWrapperWidth);
-        let spaceX = (serviceImgWidth / 2 - serviceWrapperWidth) * 2;
-        let spaceY = (serviceImgHeight / 2 - serviceWrapperHeight) * 2;
-        serviceImgWidth = serviceImgWidth + spaceX;
-        console.log(serviceImgWidth);
-        serviceImgHeight = serviceImgHeight + spaceY;
-        let ratioX = serviceImgWidth / serviceImgWidth / 2;
-        let ratioY = serviceImgHeight / serviceImgHeight / 2;
-        let x = (pX - serviceColTwo.offsetLeft) * ratioX;
-        let y = (pY - serviceColTwo.offsetHeight) * ratioY;
-        serviceImg.style = `left: ${-x}px; top: ${-y}px; width: auto; height: auto; max-height: unset;max-width:unset; transform: none;`;
-        serviceImgCover.addEventListener("mouseleave", function (e) {
-            serviceImg.style = `left: 50%; top: 50%; width: auto; height: auto; max-height: 100%;max-width:100%; transform: translate(-50%,-50%);`;
-        });
+        const pX = e.pageX;
+        const pY = e.pageY;
+        serviceImg.style = "width: 100%";
     });
 });

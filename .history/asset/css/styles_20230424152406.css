@@ -625,32 +625,27 @@ a {
 }
 .services__col:nth-child(2) {
     display: block;
-    margin-top: 230px;
+    margin-top: 270px;
     position: relative;
     width: 420px;
-    height: 565px;
+    height: 350px;
     background: linear-gradient(180deg, #9df1fb 0%, #73d0db 108.14%);
     border-radius: 10px;
 }
 .col__img-wrap {
-    position: relative;
     height: 567px;
-    width: 420px;
     overflow: hidden;
 }
 .col__img {
     max-width: 100%;
-    position: relative;
-    object-fit: contain;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    max-height: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
 .col__img-cover {
     position: absolute;
     cursor: zoom-in;
-    top: 0;
+    bottom: 0;
     left: 0;
     width: 420px;
     height: inherit;
